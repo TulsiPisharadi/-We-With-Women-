@@ -8,37 +8,38 @@
 </head>
 
 <body>
-
-  <div class="header">
-    <h1>WWW</h1>
-    <p>We With Women</p>
-  </div>
-  <div class=“header-image”>
-  </div>
-
-  <style>
-    body {
-      background-color: rgb(91, 227, 23);
-    }
-  </style>
-  <div class="full-page">
-    <div class="navbar">
-      <div>
-        <a href='website.html'>WE WITH WOMEN</a>
-      </div>
-      <nav>
-        <ul id="MenuItems">
-          <li><a href='#'>Home</a></li>
-          <li><a href='#'>Anout Us</a></li>
-          <li><a href='#'>Serivces</a></li>
-          <li><a href='#'>Contact</a></li>
-          <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'"
-              style="width:auto;">Log in</button></li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand poppins" href="#">WE WITH WOMAN</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
-      </nav>
+        <button class="btn btn-success" type="submit">Login</button>
+      </div>
     </div>
-  </div>
+  </nav>
+…
+
   <footer class="bg-info text-center text-lg-start fixed-bottom">
     <!-- Grid container -->
     <div class="container p-4">
@@ -115,7 +116,7 @@
   </footer>
   <style>
     .footer {
-      position: fixed;
+      position: absolute;
       left: 0;
       bottom: 0;
       width: 100%;
