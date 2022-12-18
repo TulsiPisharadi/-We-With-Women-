@@ -4,7 +4,7 @@ header img {
 }
 body {
     height: 100vh;
-    background-image: url('https://imageio.forbes.com/specials-images/imageserve/61003fd478486dcc05c13220/Mature-woman-with-beach-hat-and-sunglasses/960x0.jpg?format=jpg&width=960%27);%20background-size:%20cover;');
+    background-image: url('assets/bg.png');
     background-size: cover;
     font-family: Open sans;
     margin-top: 80px;
@@ -46,7 +46,7 @@ header li a {
     font-size: 30px;
   }
 .header-image {
-    background-image: url(“https://printify.com/wp-content/uploads/2021/08/20-Print-on-Demand-travel-accessories-for-your-online-store-1.jpg”);
+    background-image: url('assets/bg.png');
     }
 .footer {
     position: absolute;
