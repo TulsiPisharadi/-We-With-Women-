@@ -30,5 +30,3 @@ integrated to the web from the dialogueflow.
 ## Github Website
 https://tulsipisharadi.github.io/-We-With-Women-/
 
-
-##Screenshot
