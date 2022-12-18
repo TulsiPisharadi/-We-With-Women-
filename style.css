@@ -73,7 +73,8 @@ header li a {
     left: 1000px;
     top: 350px;
   }
-  .Main {
+  .h3{
+    position:fixed;
     left: 1000px;
     top: 375px;
   }
